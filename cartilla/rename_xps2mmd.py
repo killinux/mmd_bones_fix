@@ -1,7 +1,10 @@
 import bpy
 
-# 定义XPS到MMD的骨骼名称映射
+# 定义mmd到MMD的骨骼名称映射
 xps_to_mmd_mapping = {
+
+    "head eyeball left": "目.L",
+    "head eyeball right": "目.R",
 
     "arm left finger 1a": "親指０.L",
     "arm left finger 1b": "親指１.L",
@@ -38,6 +41,10 @@ xps_to_mmd_mapping = {
 
     "unused trash 15": "足D.L",
     "unused trash 16": "足D.R",
+    
+    "unused bip001 lthightwist1": "足.L",
+    "unused bip001 rthightwist1": "足.R",
+    
     "leg left knee": "ひざD.L",
     "leg right knee": "ひざD.R",
     "leg left toes": "足先EX.L",
@@ -83,7 +90,7 @@ bl_info = {
 class XPStoMMDBoneNameConverter(bpy.types.Operator):
     """Convert XPS bone names to MMD bone names"""
     bl_idname = "rig.xps_to_mmd_bone_names"
-    bl_label = "Convert rigify to MMD Bone Names"
+    bl_label = "Convert mmd to MMD Bone Names"
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):

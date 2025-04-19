@@ -128,300 +128,324 @@ bone_list = [
 # 使用示例 2：带参数的字典列表
 advanced_list = [
     {
-        "src": "Cartilla413_arm:arm left shoulder 2",
-        "tgt": "标准骨骼与刚体_arm:腕.L",
+        "src": "Cartilla419_arm:arm left shoulder 2",
+        "tgt": "Cartilla419 Bone Lie R_arm:腕.L",
         "align": "FULL",
         "length": "PRESERVE_SRC"
     },
     {
-        "src": "Cartilla413_arm:arm left shoulder 1",
-        "tgt": "标准骨骼与刚体_arm:肩.L",
+        "src": "Cartilla419_arm:arm left shoulder 1",
+        "tgt": "Cartilla419 Bone Lie R_arm:肩.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left elbow",
-        "tgt": "标准骨骼与刚体_arm:ひじ.L",
+        "src": "Cartilla419_arm:arm left elbow",
+        "tgt": "Cartilla419 Bone Lie R_arm:ひじ.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left wrist",
-        "tgt": "标准骨骼与刚体_arm:手首.L",
+        "src": "Cartilla419_arm:arm left wrist",
+        "tgt": "Cartilla419 Bone Lie R_arm:手首.L",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Cartilla413_arm:arm left finger 1a",
-        "tgt": "标准骨骼与刚体_arm:親指０.L",
+        "src": "Cartilla419_arm:arm left finger 1a",
+        "tgt": "Cartilla419 Bone Lie R_arm:親指０.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 1b",
-        "tgt": "标准骨骼与刚体_arm:親指１.L",
+        "src": "Cartilla419_arm:arm left finger 1b",
+        "tgt": "Cartilla419 Bone Lie R_arm:親指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 1c",
-        "tgt": "标准骨骼与刚体_arm:親指２.L",
+        "src": "Cartilla419_arm:arm left finger 1c",
+        "tgt": "Cartilla419 Bone Lie R_arm:親指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 2a",
-        "tgt": "标准骨骼与刚体_arm:人指１.L",
+        "src": "Cartilla419_arm:arm left finger 2a",
+        "tgt": "Cartilla419 Bone Lie R_arm:人指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 2b",
-        "tgt": "标准骨骼与刚体_arm:人指２.L",
+        "src": "Cartilla419_arm:arm left finger 2b",
+        "tgt": "Cartilla419 Bone Lie R_arm:人指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 2c",
-        "tgt": "标准骨骼与刚体_arm:人指３.L",
+        "src": "Cartilla419_arm:arm left finger 2c",
+        "tgt": "Cartilla419 Bone Lie R_arm:人指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Cartilla413_arm:arm left finger 3a",
-        "tgt": "标准骨骼与刚体_arm:中指１.L",
+        "src": "Cartilla419_arm:arm left finger 3a",
+        "tgt": "Cartilla419 Bone Lie R_arm:中指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 3b",
-        "tgt": "标准骨骼与刚体_arm:中指２.L",
+        "src": "Cartilla419_arm:arm left finger 3b",
+        "tgt": "Cartilla419 Bone Lie R_arm:中指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 3c",
-        "tgt": "标准骨骼与刚体_arm:中指３.L",
+        "src": "Cartilla419_arm:arm left finger 3c",
+        "tgt": "Cartilla419 Bone Lie R_arm:中指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 4a",
-        "tgt": "标准骨骼与刚体_arm:薬指１.L",
+        "src": "Cartilla419_arm:arm left finger 4a",
+        "tgt": "Cartilla419 Bone Lie R_arm:薬指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 4b",
-        "tgt": "标准骨骼与刚体_arm:薬指２.L",
+        "src": "Cartilla419_arm:arm left finger 4b",
+        "tgt": "Cartilla419 Bone Lie R_arm:薬指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 4c",
-        "tgt": "标准骨骼与刚体_arm:薬指３.L",
+        "src": "Cartilla419_arm:arm left finger 4c",
+        "tgt": "Cartilla419 Bone Lie R_arm:薬指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 5a",
-        "tgt": "标准骨骼与刚体_arm:小指１.L",
+        "src": "Cartilla419_arm:arm left finger 5a",
+        "tgt": "Cartilla419 Bone Lie R_arm:小指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 5b",
-        "tgt": "标准骨骼与刚体_arm:小指２.L",
+        "src": "Cartilla419_arm:arm left finger 5b",
+        "tgt": "Cartilla419 Bone Lie R_arm:小指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm left finger 5c",
-        "tgt": "标准骨骼与刚体_arm:小指３.L",
+        "src": "Cartilla419_arm:arm left finger 5c",
+        "tgt": "Cartilla419 Bone Lie R_arm:小指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right shoulder 2",
-        "tgt": "标准骨骼与刚体_arm:腕.R",
+        "src": "Cartilla419_arm:arm right shoulder 2",
+        "tgt": "Cartilla419 Bone Lie R_arm:腕.R",
         "align": "FULL",
         "length": "PRESERVE_SRC"
     },
     {
-        "src": "Cartilla413_arm:arm right shoulder 1",
-        "tgt": "标准骨骼与刚体_arm:肩.R",
+        "src": "Cartilla419_arm:arm right shoulder 1",
+        "tgt": "Cartilla419 Bone Lie R_arm:肩.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right elbow",
-        "tgt": "标准骨骼与刚体_arm:ひじ.R",
+        "src": "Cartilla419_arm:arm right elbow",
+        "tgt": "Cartilla419 Bone Lie R_arm:ひじ.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right wrist",
-        "tgt": "标准骨骼与刚体_arm:手首.R",
+        "src": "Cartilla419_arm:arm right wrist",
+        "tgt": "Cartilla419 Bone Lie R_arm:手首.R",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Cartilla413_arm:arm right finger 1a",
-        "tgt": "标准骨骼与刚体_arm:親指０.R",
+        "src": "Cartilla419_arm:arm right finger 1a",
+        "tgt": "Cartilla419 Bone Lie R_arm:親指０.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 1b",
-        "tgt": "标准骨骼与刚体_arm:親指１.R",
+        "src": "Cartilla419_arm:arm right finger 1b",
+        "tgt": "Cartilla419 Bone Lie R_arm:親指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 1c",
-        "tgt": "标准骨骼与刚体_arm:親指２.R",
+        "src": "Cartilla419_arm:arm right finger 1c",
+        "tgt": "Cartilla419 Bone Lie R_arm:親指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 2a",
-        "tgt": "标准骨骼与刚体_arm:人指１.R",
+        "src": "Cartilla419_arm:arm right finger 2a",
+        "tgt": "Cartilla419 Bone Lie R_arm:人指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 2b",
-        "tgt": "标准骨骼与刚体_arm:人指２.R",
+        "src": "Cartilla419_arm:arm right finger 2b",
+        "tgt": "Cartilla419 Bone Lie R_arm:人指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 2c",
-        "tgt": "标准骨骼与刚体_arm:人指３.R",
+        "src": "Cartilla419_arm:arm right finger 2c",
+        "tgt": "Cartilla419 Bone Lie R_arm:人指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Cartilla413_arm:arm right finger 3a",
-        "tgt": "标准骨骼与刚体_arm:中指１.R",
+        "src": "Cartilla419_arm:arm right finger 3a",
+        "tgt": "Cartilla419 Bone Lie R_arm:中指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 3b",
-        "tgt": "标准骨骼与刚体_arm:中指２.R",
+        "src": "Cartilla419_arm:arm right finger 3b",
+        "tgt": "Cartilla419 Bone Lie R_arm:中指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 3c",
-        "tgt": "标准骨骼与刚体_arm:中指３.R",
+        "src": "Cartilla419_arm:arm right finger 3c",
+        "tgt": "Cartilla419 Bone Lie R_arm:中指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 4a",
-        "tgt": "标准骨骼与刚体_arm:薬指１.R",
+        "src": "Cartilla419_arm:arm right finger 4a",
+        "tgt": "Cartilla419 Bone Lie R_arm:薬指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 4b",
-        "tgt": "标准骨骼与刚体_arm:薬指２.R",
+        "src": "Cartilla419_arm:arm right finger 4b",
+        "tgt": "Cartilla419 Bone Lie R_arm:薬指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 4c",
-        "tgt": "标准骨骼与刚体_arm:薬指３.R",
+        "src": "Cartilla419_arm:arm right finger 4c",
+        "tgt": "Cartilla419 Bone Lie R_arm:薬指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 5a",
-        "tgt": "标准骨骼与刚体_arm:小指１.R",
+        "src": "Cartilla419_arm:arm right finger 5a",
+        "tgt": "Cartilla419 Bone Lie R_arm:小指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 5b",
-        "tgt": "标准骨骼与刚体_arm:小指２.R",
+        "src": "Cartilla419_arm:arm right finger 5b",
+        "tgt": "Cartilla419 Bone Lie R_arm:小指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:arm right finger 5c",
-        "tgt": "标准骨骼与刚体_arm:小指３.R",
-        "align": "HEAD",
-        "length": "AUTO"
-    },
-
-    {
-        "src": "Cartilla413_arm:leg left thigh",
-        "tgt": "标准骨骼与刚体_arm:足.L",
-        "align": "HEAD",
-        "length": "AUTO"
-    },
-    {
-        "src": "Cartilla413_arm:leg right thigh",
-        "tgt": "标准骨骼与刚体_arm:足.R",
+        "src": "Cartilla419_arm:arm right finger 5c",
+        "tgt": "Cartilla419 Bone Lie R_arm:小指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
 
     {
-        "src": "Cartilla413_arm:leg left knee",
-        "tgt": "标准骨骼与刚体_arm:ひざ.L",
+        "src": "Cartilla419_arm:leg left thigh",
+        "tgt": "Cartilla419 Bone Lie R_arm:足.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:leg right knee",
-        "tgt": "标准骨骼与刚体_arm:ひざ.R",
-        "align": "HEAD",
-        "length": "AUTO"
-    },
-
-    {
-        "src": "Cartilla413_arm:leg left ankle",
-        "tgt": "标准骨骼与刚体_arm:足首.L",
-        "align": "HEAD",
-        "length": "AUTO"
-    },
-    {
-        "src": "Cartilla413_arm:leg right ankle",
-        "tgt": "标准骨骼与刚体_arm:足首.R",
+        "src": "Cartilla419_arm:leg right thigh",
+        "tgt": "Cartilla419 Bone Lie R_arm:足.R",
         "align": "HEAD",
         "length": "AUTO"
     },
 
     {
-        "src": "Cartilla413_arm:spine lower",
-        "tgt": "标准骨骼与刚体_arm:上半身",
+        "src": "Cartilla419_arm:leg left knee",
+        "tgt": "Cartilla419 Bone Lie R_arm:ひざ.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:spine upper",
-        "tgt": "标准骨骼与刚体_arm:上半身2",
+        "src": "Cartilla419_arm:leg right knee",
+        "tgt": "Cartilla419 Bone Lie R_arm:ひざ.R",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+
+    {
+        "src": "Cartilla419_arm:leg left ankle",
+        "tgt": "Cartilla419 Bone Lie R_arm:足首.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:head neck lower",
-        "tgt": "标准骨骼与刚体_arm:首",
+        "src": "Cartilla419_arm:leg right ankle",
+        "tgt": "Cartilla419 Bone Lie R_arm:足首.R",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+
+    {
+        "src": "Cartilla419_arm:spine lower",
+        "tgt": "Cartilla419 Bone Lie R_arm:上半身",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:head eyeball left",
-        "tgt": "标准骨骼与刚体_arm:目.L",
+        "src": "Cartilla419_arm:spine upper",
+        "tgt": "Cartilla419 Bone Lie R_arm:上半身2",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Cartilla413_arm:head eyeball right",
-        "tgt": "标准骨骼与刚体_arm:目.R",
+        "src": "Cartilla419_arm:head neck lower",
+        "tgt": "Cartilla419 Bone Lie R_arm:首",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+    {
+        "src": "Cartilla419_arm:head eyeball left",
+        "tgt": "Cartilla419 Bone Lie R_arm:目.L",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+    {
+        "src": "Cartilla419_arm:head eyeball right",
+        "tgt": "Cartilla419 Bone Lie R_arm:目.R",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+    {
+        "src": "Cartilla419_arm:boob right 1",
+        "tgt": "Cartilla419 Bone Lie R_arm:乳奶1.R",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+    {
+        "src": "Cartilla419_arm:boob right 2",
+        "tgt": "Cartilla419 Bone Lie R_arm:乳奶2.R",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+    {
+        "src": "Cartilla419_arm:boob left 1",
+        "tgt": "Cartilla419 Bone Lie R_arm:乳奶1.L",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+    {
+        "src": "Cartilla419_arm:boob left 2",
+        "tgt": "Cartilla419 Bone Lie R_arm:乳奶2.L",
         "align": "HEAD",
         "length": "AUTO"
     },

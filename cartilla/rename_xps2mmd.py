@@ -2,6 +2,11 @@ import bpy
 
 # 定义mmd到MMD的骨骼名称映射
 xps_to_mmd_mapping = {
+    
+    "boob left 1": "乳奶1.L",
+    "boob left 2": "乳奶2.L",
+    "boob right 1": "乳奶1.R",
+    "boob right 2": "乳奶2.R",
 
     "head eyeball left": "目.L",
     "head eyeball right": "目.R",

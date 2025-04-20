@@ -42,7 +42,13 @@ def bind_vertex_groups_to_bones(vertex_group_name, bone_name):
         print(f"成功将顶点组 {vertex_group_name} 绑定到骨骼 {bone_name}。")
 
 # 调用函数执行绑定操作，这里需要你根据实际情况修改顶点组和骨骼的名称
-vertex_group_name = "unused bip001 lthightwist1"
-bone_name = "足.L"
+vertex_group_name = "head jaw"
+bone_name = "首"
 bind_vertex_groups_to_bones(vertex_group_name, bone_name)
-    
+
+bind_vertex_groups_to_bones("head lip lower middle", bone_name)
+bind_vertex_groups_to_bones("head lip lower left", bone_name)
+bind_vertex_groups_to_bones("head lip lower left", bone_name)
+bind_vertex_groups_to_bones("head tongue 1", bone_name)
+bind_vertex_groups_to_bones("head tongue 2", bone_name)
+bind_vertex_groups_to_bones("head tongue 3", bone_name)

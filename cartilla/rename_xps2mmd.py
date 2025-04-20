@@ -63,7 +63,7 @@ xps_to_mmd_mapping = {
     "spine upper": "上半身3",
     
     "head neck lower": "首",
-    "head neck upper": "頭",
+
     "arm left shoulder 1": "肩.L",
     "arm right shoulder 1": "肩.R",
     "unused bip001 luparmtwist": "腕.L",
@@ -79,7 +79,7 @@ xps_to_mmd_mapping = {
     "unused bip001 ruparmtwist1":"腕捩.R"
     
 }
-
+#    "head neck upper": "頭",
 
 bl_info = {
     "name": "rigify to MMD Bone Name Converter",

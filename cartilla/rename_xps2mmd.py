@@ -59,22 +59,38 @@ xps_to_mmd_mapping = {
 
     "unused trash 17": "下半身",
     "spine lower": "上半身",
-    "spine middle": "上半身2",
-    "spine upper": "上半身3",
+    "spine middle": "上半身1",
+    "spine upper": "上半身2",
     
     "head neck lower": "首",
 
     "arm left shoulder 1": "肩.L",
     "arm right shoulder 1": "肩.R",
+    
+    "arm left shoulder 2": "腕.L",
+    "arm right shoulder 2": "腕.R",
+    "arm left elbow": "ひじ.L",
+    "arm right elbow": "ひじ.R",
+    
     "unused bip001 luparmtwist": "腕.L",
     "unused bip001 ruparmtwist": "腕.R",
+    
+    "unused bip001 xtra07pp": "腕.L",
+    "unused bip001 xtra07": "腕.R",
+    
     "unused trash 18": "ひじ.L",
     "unused trash 19": "ひじ.R",
+    "unused bip001 l foretwist1":"手捩.L",
+    "unused bip001 r foretwist1":"手捩.R",
+    
     "arm left wrist": "手首.L",
     "arm right wrist": "手首.R",
     
-    "unused bip001 l foretwist1":"手捩.L",
-    "unused bip001 r foretwist1":"手捩.R",
+    
+    
+    "arm left shoulder 2":"腕捩.L",
+    "arm right shoulder 2":"腕捩.R"
+    
     "unused bip001 luparmtwist1":"腕捩.L",
     "unused bip001 ruparmtwist1":"腕捩.R"
     

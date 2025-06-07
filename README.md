@@ -15,6 +15,7 @@ merge_adjacent_bones.py，如果胳膊是两段骨骼，需要合并骨骼
 4.misaki
 5.rouffe   简化版本
 6.cartilla/white rose 使用“标准骨架.pmx” 2025.06.02
+7.Arbiter  使用“标准骨架.pmx” 2025.06.07
 
 
 

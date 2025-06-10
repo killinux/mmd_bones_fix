@@ -179,7 +179,7 @@ def align_bone_tail2tail(source_armature_name, source_bone_name, target_armature
 
         # 计算源骨骼当前的向量（从头部到尾部）
         source_bone_vector = source_bone.tail - source_bone.head
-        target_bone_vector = target_bone.tail - target_bone.head
+        #target_bone_vector = target_bone.tail - target_bone.head
 
         # 将源骨骼头部移动到目标骨骼头部的世界坐标
         #source_bone.head = source_armature_obj.matrix_world.inverted() @ target_bone_world_head
@@ -187,8 +187,7 @@ def align_bone_tail2tail(source_armature_name, source_bone_name, target_armature
 
         # 根据之前的向量重新定位源骨骼尾部，以保持骨骼形状
         #source_bone.tail = source_bone.head + source_bone_vector
-        #source_bone.head = source_bone.tail - source_bone_vector
-        source_bone.head = source_bone.tail + target_bone_vector
+        source_bone.head = source_bone.tail - source_bone_vector
 
     except KeyError:
         print("指定的骨骼名称不存在，请检查骨骼名称。")

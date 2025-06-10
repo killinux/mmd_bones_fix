@@ -144,7 +144,7 @@ def align_bone_tail2heads(source_armature_name, source_bone_name, target_armatur
 
     # 退出编辑模式
     bpy.ops.object.mode_set(mode='OBJECT')
-def align_bone_tail2tail(source_armature_name, source_bone_name, target_armature_name, target_bone_name):
+def align_bone_heads2tail(source_armature_name, source_bone_name, target_armature_name, target_bone_name):
     # 获取源骨架对象和目标骨架对象
     source_armature_obj = bpy.data.objects.get(source_armature_name)
     target_armature_obj = bpy.data.objects.get(target_armature_name)
@@ -174,21 +174,22 @@ def align_bone_tail2tail(source_armature_name, source_bone_name, target_armature
         target_bone = target_armature.bones[target_bone_name]
 
         # 计算目标骨骼头部的世界坐标
-        #target_bone_world_head = target_armature_obj.matrix_world @ target_bone.head_local
+        target_bone_world_head = target_armature_obj.matrix_world @ target_bone.head_local
         target_bone_world_tail = target_armature_obj.matrix_world @ target_bone.tail_local
 
         # 计算源骨骼当前的向量（从头部到尾部）
         source_bone_vector = source_bone.tail - source_bone.head
-        target_bone_vector = target_bone.tail - target_bone.head
+        #target_bone_vector = target_bone.tail - target_bone.head
+        target_bone_vector = target_bone_world_tail - target_bone_world_head
 
         # 将源骨骼头部移动到目标骨骼头部的世界坐标
         #source_bone.head = source_armature_obj.matrix_world.inverted() @ target_bone_world_head
-        source_bone.tail = source_armature_obj.matrix_world.inverted() @ target_bone_world_tail
+        source_bone.head = source_armature_obj.matrix_world.inverted() @ target_bone_world_tail
+        #source_bone.tail = source_armature_obj.matrix_world.inverted() @ target_bone_world_tail
 
         # 根据之前的向量重新定位源骨骼尾部，以保持骨骼形状
-        #source_bone.tail = source_bone.head + source_bone_vector
+        source_bone.tail = source_bone.head + target_bone_vector
         #source_bone.head = source_bone.tail - source_bone_vector
-        source_bone.head = source_bone.tail + target_bone_vector
 
     except KeyError:
         print("指定的骨骼名称不存在，请检查骨骼名称。")
@@ -198,9 +199,9 @@ def align_bone_tail2tail(source_armature_name, source_bone_name, target_armature
 
 
 # 在这里设置源骨架名称、源骨骼名称、目标骨架名称和目标骨骼名称
-target_armature_name = "Cartilla_arm"
+target_armature_name = "Rouffe_arm"
 target_bone_name = "arm left shoulder 1"
-source_armature_name = "T0209 Bones V2_arm"
+source_armature_name = "标准骨架_arm"
 source_bone_name = "肩P.L"
 
 # 调用函数进行骨骼对齐
@@ -210,9 +211,20 @@ align_bone_heads(source_armature_name, "肩C.L", target_armature_name, "arm left
 align_bone_heads(source_armature_name, "肩P.R", target_armature_name, "arm right shoulder 1")
 align_bone_heads(source_armature_name, "肩C.R", target_armature_name, "arm right shoulder 2")
 
+align_bone_heads(source_armature_name, "下半身", source_armature_name, "上半身")
+align_bone_tail2heads(source_armature_name, "腰", source_armature_name, "上半身")
+
+
+align_bone_tail(source_armature_name, "腕捩.R", source_armature_name, "腕.R")
+align_bone_tail(source_armature_name, "腕捩.L", source_armature_name, "腕.L")
+align_bone_tail(source_armature_name, "手捩.R", source_armature_name, "ひじ.R")
+align_bone_tail(source_armature_name, "手捩.L", source_armature_name, "ひじ.L")
+
 align_bone_tail(source_armature_name, "ダミー.R", source_armature_name, "手首.R")
 align_bone_tail(source_armature_name, "ダミー.L", source_armature_name, "手首.L")
 
+align_bone_heads2tail(source_armature_name, "手先.L", source_armature_name, "手首.L")
+align_bone_heads2tail(source_armature_name, "手先.R", source_armature_name, "手首.R")
 
 align_bone_tail(source_armature_name, "小指先.R", source_armature_name, "小指３.R")
 align_bone_tail(source_armature_name, "薬指先.R", source_armature_name, "薬指３.R")
@@ -226,10 +238,10 @@ align_bone_tail(source_armature_name, "中指先.L", source_armature_name, "中�
 align_bone_tail(source_armature_name, "人指先.L", source_armature_name, "人指３.L")
 align_bone_tail(source_armature_name, "親指先.L", source_armature_name, "親指２.L")
 
+#グルーブ
 
-
-
-#align_bone_heads(source_armature_name, "足D.L", source_armature_name, "足.L")
+align_bone_heads(source_armature_name, "腰キャンセル.R", source_armature_name, "足.L")
+align_bone_heads(source_armature_name, "足D.L", source_armature_name, "足.L")
 align_bone_heads(source_armature_name, "ひざD.L", source_armature_name, "ひざ.L")
 align_bone_heads(source_armature_name, "足首D.L", source_armature_name, "足首.L")
 align_bone_heads(source_armature_name, "足ＩＫ.L", source_armature_name, "足首.L")
@@ -237,7 +249,8 @@ align_bone_tail2heads(source_armature_name, "足IK親.L", source_armature_name, 
 align_bone_tail(source_armature_name, "足先EX.L", source_armature_name, "足首.L")
 align_bone_tail(source_armature_name, "つま先ＩＫ.L", source_armature_name, "足首.L")
 
-#align_bone_heads(source_armature_name, "足D.R", source_armature_name, "足.R")
+align_bone_heads(source_armature_name, "腰キャンセル.L", source_armature_name, "足.R")
+align_bone_heads(source_armature_name, "足D.R", source_armature_name, "足.R")
 align_bone_heads(source_armature_name, "ひざD.R", source_armature_name, "ひざ.R")
 align_bone_heads(source_armature_name, "足首D.R", source_armature_name, "足首.R")
 align_bone_heads(source_armature_name, "足ＩＫ.R", source_armature_name, "足首.R")
@@ -246,6 +259,5 @@ align_bone_tail(source_armature_name, "足先EX.R", source_armature_name, "足�
 align_bone_tail(source_armature_name, "つま先ＩＫ.R", source_armature_name, "足首.R")
 
 
-align_bone_tail2tail(source_armature_name, "腕捩.L", source_armature_name, "腕.L")
-align_bone_tail2tail(source_armature_name, "手捩.L", source_armature_name, "ひじ.L")
+
 

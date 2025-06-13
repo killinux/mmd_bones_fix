@@ -18,7 +18,7 @@ merge_adjacent_bones.py，如果胳膊是两段骨骼，需要合并骨骼
 7.Arbiter  使用“标准骨架.pmx” 2025.06.07
 8.Eve (Neurolink Suit)- Stellar Blade  使用"标准骨架.pmx" 2025.06.08
 	rename_xps2mmd:去掉rhand和rToe，lhand和lToe，neckLower,首，足首.L,足首.R, 放到merge_vetex_group_hand.py 里合并定点组
-9.rouffe (glistening grace)  	使用"标准骨架.pmx"  not finish
+9.rouffe (glistening grace)  	使用"标准骨架.pmx"  小腿要合并
 
 
 

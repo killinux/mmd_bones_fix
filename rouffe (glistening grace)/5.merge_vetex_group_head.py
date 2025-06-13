@@ -141,10 +141,8 @@ group_names = [
     "head hair back right 5",
     "head hair front left 1",
     "head hair front left 2",
-    "",
-    "",
-    "",
-    "",
+    "head hair front left 3",
+
 ]
 
 # 新顶点组的名称

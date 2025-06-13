@@ -18,7 +18,7 @@ xps_to_mmd_mapping = {
     "arm left finger 2b": "人指２.L",
     "arm left finger 2c": "人指３.L",
     "arm left finger 3a": "中指１.L",
-    "arm left finger 3b": "中指２L",
+    "arm left finger 3b": "中指２.L",
     "arm left finger 3c": "中指３.L",
     "arm left finger 4a": "薬指１.L",
     "arm left finger 4b": "薬指２.L",
@@ -34,7 +34,7 @@ xps_to_mmd_mapping = {
     "arm right finger 2b": "人指２.R",
     "arm right finger 2c": "人指３.R",
     "arm right finger 3a": "中指１.R",
-    "arm right finger 3b": "中指２R",
+    "arm right finger 3b": "中指２.R",
     "arm right finger 3c": "中指３.R",
     "arm right finger 4a": "薬指１.R",
     "arm right finger 4b": "薬指２.R",
@@ -46,8 +46,10 @@ xps_to_mmd_mapping = {
 
 #    "unused trash 15": "足D.L",
 #    "unused trash 16": "足D.R",
-    "unused bip001 xtra04": "足D.L",
-    "unused bip001 xtra02": "足D.R",  
+    # "unused bip001 xtra04": "足D.L",
+    # "unused bip001 xtra02": "足D.R",
+    "unused bip001 thightwist_lt": "足D.L",
+    "unused bip001 thightwist_rt": "足D.R",   
 #    "unused bip001 l thigh_twist": "足D.L",
 #    "unused bip001 r thigh_twist": "足D.R",
     
@@ -56,10 +58,12 @@ xps_to_mmd_mapping = {
     "leg left thigh": "足.L",
     "leg right thigh": "足.R",
     
-    "leg left knee": "ひざD.L",
-    "leg right knee": "ひざD.R",
-    
-   "leg left ankle": "足首.L",
+    # "leg left knee": "ひざD.L",
+    # "leg right knee": "ひざD.R",
+ #   "unused bip001 lcalftwist": "ひざD.L",
+ #   "unused bip001 rcalftwist": "ひざD.R",
+
+    "leg left ankle": "足首.L",
     "leg right ankle": "足首.R", 
     "leg left toes": "足先EX.L",
     "leg right toes": "足先EX.R",
@@ -77,17 +81,17 @@ xps_to_mmd_mapping = {
     
 #    "arm left shoulder 2": "腕.L",
 #    "arm right shoulder 2": "腕.R",
-#    "unused bip001 luparmtwist": "腕.L",
-#    "unused bip001 ruparmtwist": "腕.R",
-    "unused bip001 xtra07pp": "腕.L",
-    "unused bip001 xtra07": "腕.R", 
+    "unused bip001 luparmtwist": "腕.L",
+    "unused bip001 ruparmtwist": "腕.R",
+    # "unused bip001 xtra07pp": "腕.L",
+    # "unused bip001 xtra07": "腕.R", 
 #    "unused bip001 upperarm_sub_l": "腕.L",
 #    "unused bip001 upperarm_sub_r": "腕.R",
     
-#    "unused bip001 luparmtwist1":"腕捩.L",
-#    "unused bip001 ruparmtwist1":"腕捩.R"
-    "arm left shoulder 2":"腕捩.L",
-    "arm right shoulder 2":"腕捩.R",
+    "unused bip001 luparmtwist1":"腕捩.L",
+    "unused bip001 ruparmtwist1":"腕捩.R",
+    # "arm left shoulder 2":"腕捩.L",
+    # "arm right shoulder 2":"腕捩.R",
     
 #    "arm left elbow": "ひじ.L",
 #    "arm right elbow": "ひじ.R",    

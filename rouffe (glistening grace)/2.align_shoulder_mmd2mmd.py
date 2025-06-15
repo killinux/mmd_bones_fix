@@ -199,9 +199,9 @@ def align_bone_heads2tail(source_armature_name, source_bone_name, target_armatur
 
 
 # 在这里设置源骨架名称、源骨骼名称、目标骨架名称和目标骨骼名称
-target_armature_name = "Rouffe_arm"
+target_armature_name = "Rouffe Glistening Grace12.5_arm"
 target_bone_name = "arm left shoulder 1"
-source_armature_name = "标准骨架_arm"
+source_armature_name = "Rouffe Bone G_arm"
 source_bone_name = "肩P.L"
 
 # 调用函数进行骨骼对齐

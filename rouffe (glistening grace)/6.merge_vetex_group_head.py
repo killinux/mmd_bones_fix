@@ -25,6 +25,9 @@ obj = bpy.context.active_object
 
 # 要合并的顶点组名称列表
 group_names = [
+    "glistening grace hat",
+    "unused bip001 teeth_up",
+    "unused bip001 teeth_dw",
     "head neck upper",
     "head eyelid upper right",
     "head eyelid upper left",
@@ -51,7 +54,7 @@ group_names = [
     "head tongue !",
     "head tongue 1",
     "head tongue 2",
-    "head tongue 2",
+    "head tongue 3",
     
     "head lip upper left",
     "head lip upper right",

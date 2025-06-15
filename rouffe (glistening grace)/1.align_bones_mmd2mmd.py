@@ -128,337 +128,337 @@ bone_list = [
 # 使用示例 2：带参数的字典列表
 advanced_list = [
     {
-        "src": "Rouffe_arm:arm left shoulder 2",
-        "tgt": "标准骨架_arm:腕.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left shoulder 2",
+        "tgt": "Rouffe Bone G_arm:腕.L",
         "align": "FULL",
         "length": "PRESERVE_SRC"
     },
     {
-        "src": "Rouffe_arm:arm left shoulder 1",
-        "tgt": "标准骨架_arm:肩.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left shoulder 1",
+        "tgt": "Rouffe Bone G_arm:肩.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left elbow",
-        "tgt": "标准骨架_arm:ひじ.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left elbow",
+        "tgt": "Rouffe Bone G_arm:ひじ.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left wrist",
-        "tgt": "标准骨架_arm:手首.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left wrist",
+        "tgt": "Rouffe Bone G_arm:手首.L",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Rouffe_arm:arm left finger 1a",
-        "tgt": "标准骨架_arm:親指０.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 1a",
+        "tgt": "Rouffe Bone G_arm:親指０.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 1b",
-        "tgt": "标准骨架_arm:親指１.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 1b",
+        "tgt": "Rouffe Bone G_arm:親指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 1c",
-        "tgt": "标准骨架_arm:親指２.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 1c",
+        "tgt": "Rouffe Bone G_arm:親指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 2a",
-        "tgt": "标准骨架_arm:人指１.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 2a",
+        "tgt": "Rouffe Bone G_arm:人指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 2b",
-        "tgt": "标准骨架_arm:人指２.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 2b",
+        "tgt": "Rouffe Bone G_arm:人指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 2c",
-        "tgt": "标准骨架_arm:人指３.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 2c",
+        "tgt": "Rouffe Bone G_arm:人指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Rouffe_arm:arm left finger 3a",
-        "tgt": "标准骨架_arm:中指１.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 3a",
+        "tgt": "Rouffe Bone G_arm:中指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 3b",
-        "tgt": "标准骨架_arm:中指２.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 3b",
+        "tgt": "Rouffe Bone G_arm:中指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 3c",
-        "tgt": "标准骨架_arm:中指３.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 3c",
+        "tgt": "Rouffe Bone G_arm:中指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 4a",
-        "tgt": "标准骨架_arm:薬指１.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 4a",
+        "tgt": "Rouffe Bone G_arm:薬指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 4b",
-        "tgt": "标准骨架_arm:薬指２.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 4b",
+        "tgt": "Rouffe Bone G_arm:薬指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 4c",
-        "tgt": "标准骨架_arm:薬指３.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 4c",
+        "tgt": "Rouffe Bone G_arm:薬指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 5a",
-        "tgt": "标准骨架_arm:小指１.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 5a",
+        "tgt": "Rouffe Bone G_arm:小指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 5b",
-        "tgt": "标准骨架_arm:小指２.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 5b",
+        "tgt": "Rouffe Bone G_arm:小指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm left finger 5c",
-        "tgt": "标准骨架_arm:小指３.L",
+        "src": "Rouffe Glistening Grace12.5_arm:arm left finger 5c",
+        "tgt": "Rouffe Bone G_arm:小指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right shoulder 2",
-        "tgt": "标准骨架_arm:腕.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right shoulder 2",
+        "tgt": "Rouffe Bone G_arm:腕.R",
         "align": "FULL",
         "length": "PRESERVE_SRC"
     },
     {
-        "src": "Rouffe_arm:arm right shoulder 1",
-        "tgt": "标准骨架_arm:肩.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right shoulder 1",
+        "tgt": "Rouffe Bone G_arm:肩.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right elbow",
-        "tgt": "标准骨架_arm:ひじ.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right elbow",
+        "tgt": "Rouffe Bone G_arm:ひじ.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right wrist",
-        "tgt": "标准骨架_arm:手首.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right wrist",
+        "tgt": "Rouffe Bone G_arm:手首.R",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Rouffe_arm:arm right finger 1a",
-        "tgt": "标准骨架_arm:親指０.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 1a",
+        "tgt": "Rouffe Bone G_arm:親指０.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 1b",
-        "tgt": "标准骨架_arm:親指１.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 1b",
+        "tgt": "Rouffe Bone G_arm:親指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 1c",
-        "tgt": "标准骨架_arm:親指２.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 1c",
+        "tgt": "Rouffe Bone G_arm:親指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 2a",
-        "tgt": "标准骨架_arm:人指１.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 2a",
+        "tgt": "Rouffe Bone G_arm:人指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 2b",
-        "tgt": "标准骨架_arm:人指２.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 2b",
+        "tgt": "Rouffe Bone G_arm:人指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 2c",
-        "tgt": "标准骨架_arm:人指３.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 2c",
+        "tgt": "Rouffe Bone G_arm:人指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Rouffe_arm:arm right finger 3a",
-        "tgt": "标准骨架_arm:中指１.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 3a",
+        "tgt": "Rouffe Bone G_arm:中指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 3b",
-        "tgt": "标准骨架_arm:中指２.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 3b",
+        "tgt": "Rouffe Bone G_arm:中指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 3c",
-        "tgt": "标准骨架_arm:中指３.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 3c",
+        "tgt": "Rouffe Bone G_arm:中指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 4a",
-        "tgt": "标准骨架_arm:薬指１.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 4a",
+        "tgt": "Rouffe Bone G_arm:薬指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 4b",
-        "tgt": "标准骨架_arm:薬指２.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 4b",
+        "tgt": "Rouffe Bone G_arm:薬指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 4c",
-        "tgt": "标准骨架_arm:薬指３.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 4c",
+        "tgt": "Rouffe Bone G_arm:薬指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 5a",
-        "tgt": "标准骨架_arm:小指１.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 5a",
+        "tgt": "Rouffe Bone G_arm:小指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 5b",
-        "tgt": "标准骨架_arm:小指２.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 5b",
+        "tgt": "Rouffe Bone G_arm:小指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:arm right finger 5c",
-        "tgt": "标准骨架_arm:小指３.R",
-        "align": "HEAD",
-        "length": "AUTO"
-    },
-
-    {
-        "src": "Rouffe_arm:leg left thigh",
-        "tgt": "标准骨架_arm:足.L",
-        "align": "HEAD",
-        "length": "AUTO"
-    },
-    {
-        "src": "Rouffe_arm:leg right thigh",
-        "tgt": "标准骨架_arm:足.R",
+        "src": "Rouffe Glistening Grace12.5_arm:arm right finger 5c",
+        "tgt": "Rouffe Bone G_arm:小指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
 
     {
-        "src": "Rouffe_arm:leg left knee",
-        "tgt": "标准骨架_arm:ひざ.L",
+        "src": "Rouffe Glistening Grace12.5_arm:leg left thigh",
+        "tgt": "Rouffe Bone G_arm:足.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:leg right knee",
-        "tgt": "标准骨架_arm:ひざ.R",
-        "align": "HEAD",
-        "length": "AUTO"
-    },
-
-    {
-        "src": "Rouffe_arm:leg left ankle",
-        "tgt": "标准骨架_arm:足首.L",
-        "align": "HEAD",
-        "length": "AUTO"
-    },
-    {
-        "src": "Rouffe_arm:leg right ankle",
-        "tgt": "标准骨架_arm:足首.R",
+        "src": "Rouffe Glistening Grace12.5_arm:leg right thigh",
+        "tgt": "Rouffe Bone G_arm:足.R",
         "align": "HEAD",
         "length": "AUTO"
     },
 
     {
-        "src": "Rouffe_arm:spine lower",
-        "tgt": "标准骨架_arm:上半身",
+        "src": "Rouffe Glistening Grace12.5_arm:leg left knee",
+        "tgt": "Rouffe Bone G_arm:ひざ.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:spine middle",
-        "tgt": "标准骨架_arm:上半身1",
+        "src": "Rouffe Glistening Grace12.5_arm:leg right knee",
+        "tgt": "Rouffe Bone G_arm:ひざ.R",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+
+    {
+        "src": "Rouffe Glistening Grace12.5_arm:leg left ankle",
+        "tgt": "Rouffe Bone G_arm:足首.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:spine upper",
-        "tgt": "标准骨架_arm:上半身2",
+        "src": "Rouffe Glistening Grace12.5_arm:leg right ankle",
+        "tgt": "Rouffe Bone G_arm:足首.R",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+
+    {
+        "src": "Rouffe Glistening Grace12.5_arm:spine lower",
+        "tgt": "Rouffe Bone G_arm:上半身",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+    {
+        "src": "Rouffe Glistening Grace12.5_arm:spine middle",
+        "tgt": "Rouffe Bone G_arm:上半身1",
+        "align": "HEAD",
+        "length": "AUTO"
+    },
+    {
+        "src": "Rouffe Glistening Grace12.5_arm:spine upper",
+        "tgt": "Rouffe Bone G_arm:上半身2",
         "align": "HEAD",
         "length": "AUTO"
     },
     
     {
-        "src": "Rouffe_arm:head neck lower",
-        "tgt": "标准骨架_arm:首",
+        "src": "Rouffe Glistening Grace12.5_arm:head neck lower",
+        "tgt": "Rouffe Bone G_arm:首",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:head neck upper",
-        "tgt": "标准骨架_arm:頭",
+        "src": "Rouffe Glistening Grace12.5_arm:head neck upper",
+        "tgt": "Rouffe Bone G_arm:頭",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:head eyeball left",
-        "tgt": "标准骨架_arm:目.L",
+        "src": "Rouffe Glistening Grace12.5_arm:head eyeball left",
+        "tgt": "Rouffe Bone G_arm:目.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:head eyeball right",
-        "tgt": "标准骨架_arm:目.R",
+        "src": "Rouffe Glistening Grace12.5_arm:head eyeball right",
+        "tgt": "Rouffe Bone G_arm:目.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:boob right 1",
-        "tgt": "标准骨架_arm:乳奶1.R",
+        "src": "Rouffe Glistening Grace12.5_arm:boob right 1",
+        "tgt": "Rouffe Bone G_arm:乳奶1.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:boob right 2",
-        "tgt": "标准骨架_arm:乳奶2.R",
+        "src": "Rouffe Glistening Grace12.5_arm:boob right 2",
+        "tgt": "Rouffe Bone G_arm:乳奶2.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:boob left 1",
-        "tgt": "标准骨架_arm:乳奶1.L",
+        "src": "Rouffe Glistening Grace12.5_arm:boob left 1",
+        "tgt": "Rouffe Bone G_arm:乳奶1.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Rouffe_arm:boob left 2",
-        "tgt": "标准骨架_arm:乳奶2.L",
+        "src": "Rouffe Glistening Grace12.5_arm:boob left 2",
+        "tgt": "Rouffe Bone G_arm:乳奶2.L",
         "align": "HEAD",
         "length": "AUTO"
     },

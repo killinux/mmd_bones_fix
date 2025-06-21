@@ -47,6 +47,53 @@ def align_bone_heads(source_armature_name, source_bone_name, target_armature_nam
 
     # 退出编辑模式
     bpy.ops.object.mode_set(mode='OBJECT')
+def align_bone_heads2head(source_armature_name, source_bone_name, target_armature_name, target_bone_name):
+    # 获取源骨架对象和目标骨架对象
+    source_armature_obj = bpy.data.objects.get(source_armature_name)
+    target_armature_obj = bpy.data.objects.get(target_armature_name)
+
+    # 检查源骨架对象和目标骨架对象是否存在
+    if source_armature_obj is None or target_armature_obj is None:
+        print("指定的骨架对象不存在，请检查骨架名称。")
+        return
+
+    # 检查源骨架对象和目标骨架对象是否为骨骼对象
+    if source_armature_obj.type != 'ARMATURE' or target_armature_obj.type != 'ARMATURE':
+        print("指定的对象不是骨骼对象，请选择骨骼对象。")
+        return
+
+    # 获取源骨架数据和目标骨架数据
+    source_armature = source_armature_obj.data
+    target_armature = target_armature_obj.data
+
+    # 进入编辑模式
+    bpy.ops.object.mode_set(mode='OBJECT')
+    bpy.context.view_layer.objects.active = source_armature_obj
+    bpy.ops.object.mode_set(mode='EDIT')
+
+    try:
+        # 获取源骨骼和目标骨骼
+        source_bone = source_armature.edit_bones[source_bone_name]
+        target_bone = target_armature.bones[target_bone_name]
+
+        # 计算目标骨骼头部的世界坐标
+        target_bone_world_head = target_armature_obj.matrix_world @ target_bone.head_local
+        target_bone_world_tail = target_armature_obj.matrix_world @ target_bone.tail_local
+
+        # 计算源骨骼当前的向量（从头部到尾部）
+        source_bone_vector = source_bone.tail - source_bone.head
+
+        # 将源骨骼头部移动到目标骨骼头部的世界坐标
+        source_bone.head = source_armature_obj.matrix_world.inverted() @ target_bone_world_head
+
+        # 将源骨骼尾部移动到目标骨骼尾部的世界坐标
+        source_bone.tail = source_armature_obj.matrix_world.inverted() @ target_bone_world_tail
+
+    except KeyError:
+        print("指定的骨骼名称不存在，请检查骨骼名称。")
+
+    # 退出编辑模式
+    bpy.ops.object.mode_set(mode='OBJECT')    
 
 def align_bone_tail(source_armature_name, source_bone_name, target_armature_name, target_bone_name):
     # 获取源骨架对象和目标骨架对象
@@ -215,10 +262,10 @@ align_bone_heads(source_armature_name, "下半身", source_armature_name, "上�
 align_bone_tail2heads(source_armature_name, "腰", source_armature_name, "上半身")
 
 
-align_bone_tail(source_armature_name, "腕捩.R", source_armature_name, "腕.R")
-align_bone_tail(source_armature_name, "腕捩.L", source_armature_name, "腕.L")
-align_bone_tail(source_armature_name, "手捩.R", source_armature_name, "ひじ.R")
-align_bone_tail(source_armature_name, "手捩.L", source_armature_name, "ひじ.L")
+align_bone_heads2head(source_armature_name, "腕捩.R", source_armature_name, "腕.R")
+align_bone_heads2head(source_armature_name, "腕捩.L", source_armature_name, "腕.L")
+align_bone_heads2head(source_armature_name, "手捩.R", source_armature_name, "ひじ.R")
+align_bone_heads2head(source_armature_name, "手捩.L", source_armature_name, "ひじ.L")
 
 align_bone_tail(source_armature_name, "ダミー.R", source_armature_name, "手首.R")
 align_bone_tail(source_armature_name, "ダミー.L", source_armature_name, "手首.L")

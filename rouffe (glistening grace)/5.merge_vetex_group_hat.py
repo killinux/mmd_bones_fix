@@ -33,11 +33,6 @@ group_names = [
     "head hat stripe 2b",
     "head hat back",
     "head hat front",
-    "",
-    "",
-    "",
-    "",
-    
 
 ]
 

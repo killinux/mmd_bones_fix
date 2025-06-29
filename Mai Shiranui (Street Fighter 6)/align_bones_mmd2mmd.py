@@ -441,13 +441,13 @@ advanced_list = [
         "length": "AUTO"
     },
     {
-        "src": "Mai125_arm:lEye",
+        "src": "Mai125_arm:head eyeball.L",
         "tgt": "标准骨骼与刚体_arm:目.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Mai125_arm:rEye",
+        "src": "Mai125_arm:head eyeball.R",
         "tgt": "标准骨骼与刚体_arm:目.R",
         "align": "HEAD",
         "length": "AUTO"

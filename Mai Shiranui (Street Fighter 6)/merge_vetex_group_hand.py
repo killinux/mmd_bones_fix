@@ -1,0 +1,126 @@
+import bpy
+
+def merge_vertex_groups(obj, group_names, new_group_name):
+    # 创建一个新的顶点组
+    new_group = obj.vertex_groups.new(name=new_group_name)
+
+    # 遍历所有指定的顶点组
+    for group_name in group_names:
+        if group_name in obj.vertex_groups:
+            group = obj.vertex_groups[group_name]
+            # 遍历所有顶点
+            for v in obj.data.vertices:
+                for g in v.groups:
+                    if g.group == group.index:
+                        # 获取当前顶点在该组中的权重
+                        weight = group.weight(v.index)
+                        try:
+                            # 将权重添加到新的顶点组中
+                            new_group.add([v.index], weight, 'ADD')
+                        except RuntimeError:
+                            pass
+
+# 获取当前选中的对象
+obj = bpy.context.active_object
+
+# 要合并的顶点组名称列表
+rlMetatarsals_names = [  
+    "rMetatarsals",
+    "rFoot",
+    "rToe",
+]
+llMetatarsals_names = [  
+    "lMetatarsals",
+    "lFoot",
+    "lToe",
+]
+rfoot_names = [
+#    "lToe",
+    "rSmallToe4",
+    "rSmallToe4_2",
+    "rSmallToe3",
+    "rSmallToe3_2",
+    "rSmallToe2",
+    "rSmallToe2_2",
+    "rSmallToe1",
+    "rSmallToe1_2",
+    "rBigToe",
+    "rBigToe_2",
+]
+lfoot_names = [ 
+#    "rToe",   
+    "lSmallToe4",
+    "lSmallToe4_2",
+    "lSmallToe3",
+    "lSmallToe3_2",
+    "lSmallToe2",
+    "lSmallToe2_2",
+    "lSmallToe1",
+    "lSmallToe1_2",
+    "lBigToe",
+    "lBigToe_2",
+]
+rhand_names = [  
+    "rHand",
+    "rCarpal1",
+    "rCarpal2",
+    "rCarpal3",
+    "rCarpal4",
+]
+lhand_names = [  
+    "lHand",
+    "lCarpal1",
+    "lCarpal2",
+    "lCarpal3",
+    "lCarpal4",
+]
+
+rForearmBend= [  
+    "rForearmBend",
+    "Sleeve.R",
+    "sleeve d.001.R",
+    "sleeve d.002.R",
+    "sleeve c.R",
+    "sleeve c.001.R",
+    "sleeve c.002.R",
+    "sleeve a.R",
+    "sleeve a.001.R",
+    "sleeve a.002.R",
+    "sleeve b.R",
+    "sleeve b.001.R",
+    "sleeve b.002.R",
+    "sleeve d.R",
+]
+lForearmBend= [  
+    "lForearmBend",
+    "Sleeve.L",
+    "sleeve d.001.L",
+    "sleeve d.002.L",
+    "sleeve c.L",
+    "sleeve c.001.L",
+    "sleeve c.002.L",
+    "sleeve a.L",
+    "sleeve a.001.L",
+    "sleeve a.002.L",
+    "sleeve b.L",
+    "sleeve b.001.L",
+    "sleeve b.002.L",
+    "sleeve d.L",
+]
+
+
+# 新顶点组的名称
+new_group_name = "頭"
+
+# 调用函数合并顶点组
+merge_vertex_groups(obj, rlMetatarsals_names, "足首.R")
+merge_vertex_groups(obj, llMetatarsals_names, "足首.L")
+merge_vertex_groups(obj, rfoot_names, "足先EX.R")
+merge_vertex_groups(obj, lfoot_names, "足先EX.L")
+merge_vertex_groups(obj, rhand_names, "手首.R")
+merge_vertex_groups(obj, lhand_names, "手首.L")
+
+merge_vertex_groups(obj, rForearmBend, "ひじ.R")
+merge_vertex_groups(obj, lForearmBend, "ひじ.L")
+
+#merge_vertex_groups(obj, group_names, new_group_name)

@@ -28,10 +28,15 @@ merge_adjacent_bones.py，如果胳膊是两段骨骼，需要合并骨骼
 	检查小腿的权重，是两个需要合并，使用 merge_vetex_group_leg 
 	手捩骨不应单独权重？，手臂的骨骼，和手腕的骨骼叶合并一下，，也是在merge_vetex_group_leg
 	问题：关节不自然，还是手臂错位，是不是vmd的问题呀，捩骨到底用户用控制顶点权重呀？
+	
 12.Mai Shiranui (Street Fighter 6)
 	使用“标准骨骼与刚体.pmx”
 	合并头部，小手臂，腿，脖子单独处理
 	问题：衣服和胸还是不联动
-	
+13.rouffe (secret angel)
+	使用“标准骨骼与刚体.pmx”
+	手臂，腿，奶，单独处理
+	衣服要用传递权重 https://www.bilibili.com/video/BV1Du4m1w7L5/?spm_id_from=333.1387.favlist.content.click&vd_source=1ed400aa8fdc6fe03ecfa7ce0fc2c692
+			衣服碎片，shift 骨骼，ctl+p，空定点组--->先选身体，再选衣服，权重模式，传递权重 
 
 

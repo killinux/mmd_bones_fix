@@ -1,0 +1,2 @@
+getVertexGroupByPrefix.py：获取以Ab开头的定点组的名字
+比如head的定点组比较多的时候使用

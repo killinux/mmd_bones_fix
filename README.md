@@ -38,5 +38,8 @@ merge_adjacent_bones.py，如果胳膊是两段骨骼，需要合并骨骼
 	手臂，腿，奶，单独处理
 	衣服要用传递权重 https://www.bilibili.com/video/BV1Du4m1w7L5/?spm_id_from=333.1387.favlist.content.click&vd_source=1ed400aa8fdc6fe03ecfa7ce0fc2c692
 			衣服碎片，shift 骨骼，ctl+p，空定点组--->先选身体，再选衣服，权重模式，传递权重 
-
+14.inase (goddess of envy invidia)
+	使用“标准骨骼与刚体.pmx”，检查权重
+	首，肩，手臂，腿，奶，单独处理，不在rename中，在leg中
+	
 

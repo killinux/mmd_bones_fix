@@ -41,5 +41,10 @@ merge_adjacent_bones.py，如果胳膊是两段骨骼，需要合并骨骼
 14.inase (goddess of envy invidia)
 	使用“标准骨骼与刚体.pmx”，检查权重
 	首，肩，手臂，腿，奶，单独处理，不在rename中，在leg中
-	
+15.inase (goddess of envy invidia)2
+	使用“标准骨骼与刚体.pmx”，检查权重,12.5
+	使用1,2脚本后，导出骨骼，增加nai和捩骨，对齐nai，再rename，合并腿顶点，合并头顶点
+	首，肩，腿，奶，单独处理，不在rename中，在leg中	
+	rename中有 腕捩骨，手捩骨，
+	手捩骨教程上b站看，衣服裙子也上b站
 

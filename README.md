@@ -47,4 +47,6 @@ merge_adjacent_bones.py，如果胳膊是两段骨骼，需要合并骨骼
 	首，肩，腿，奶，单独处理，不在rename中，在leg中	
 	rename中有 腕捩骨，手捩骨，
 	手捩骨教程上b站看，衣服裙子也上b站
-
+16.xps tools for 4.5 change/export_xnalara_model.py
+	4.5的xps tools需要这样改一下才能导出xps
+	但是还存在贴图丢失的问题，豆包是真好用啊现在

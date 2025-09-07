@@ -128,336 +128,337 @@ bone_list = [
 # 使用示例 2：带参数的字典列表
 advanced_list = [
     {
-        "src": "Arbiter_arm:arm left shoulder 2",
+        "src": "Inase_arm:腕.L",
         "tgt": "标准骨骼与刚体_arm:腕.L",
         "align": "FULL",
         "length": "PRESERVE_SRC"
     },
     {
-        "src": "Arbiter_arm:arm left shoulder 1",
+        "src": "Inase_arm:肩.L",
         "tgt": "标准骨骼与刚体_arm:肩.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left elbow",
+        "src": "Inase_arm:ひじ.L",
         "tgt": "标准骨骼与刚体_arm:ひじ.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left wrist",
+        "src": "Inase_arm:手首.L",
         "tgt": "标准骨骼与刚体_arm:手首.L",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Arbiter_arm:arm left finger 1a",
+        "src": "Inase_arm:親指０.L",
         "tgt": "标准骨骼与刚体_arm:親指０.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 1b",
+        "src": "Inase_arm:親指１.L",
         "tgt": "标准骨骼与刚体_arm:親指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 1c",
+        "src": "Inase_arm:親指２.L",
         "tgt": "标准骨骼与刚体_arm:親指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 2a",
+        "src": "Inase_arm:人指１.L",
         "tgt": "标准骨骼与刚体_arm:人指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 2b",
+        "src": "Inase_arm:人指２.L",
         "tgt": "标准骨骼与刚体_arm:人指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 2c",
+        "src": "Inase_arm:人指３.L",
         "tgt": "标准骨骼与刚体_arm:人指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Arbiter_arm:arm left finger 3a",
+        "src": "Inase_arm:中指１.L",
         "tgt": "标准骨骼与刚体_arm:中指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 3b",
+        "src": "Inase_arm:中指２.L",
         "tgt": "标准骨骼与刚体_arm:中指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 3c",
+        "src": "Inase_arm:中指３.L",
         "tgt": "标准骨骼与刚体_arm:中指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 4a",
+        "src": "Inase_arm:薬指１.L",
         "tgt": "标准骨骼与刚体_arm:薬指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 4b",
+        "src": "Inase_arm:薬指２.L",
         "tgt": "标准骨骼与刚体_arm:薬指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 4c",
+        "src": "Inase_arm:薬指３.L",
         "tgt": "标准骨骼与刚体_arm:薬指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 5a",
+        "src": "Inase_arm:小指１.L",
         "tgt": "标准骨骼与刚体_arm:小指１.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 5b",
+        "src": "Inase_arm:小指２.L",
         "tgt": "标准骨骼与刚体_arm:小指２.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm left finger 5c",
+        "src": "Inase_arm:小指３.L",
         "tgt": "标准骨骼与刚体_arm:小指３.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right shoulder 2",
+        "src": "Inase_arm:腕.R",
         "tgt": "标准骨骼与刚体_arm:腕.R",
         "align": "FULL",
         "length": "PRESERVE_SRC"
     },
     {
-        "src": "Arbiter_arm:arm right shoulder 1",
+        "src": "Inase_arm:肩.R",
         "tgt": "标准骨骼与刚体_arm:肩.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right elbow",
+        "src": "Inase_arm:ひじ.R",
         "tgt": "标准骨骼与刚体_arm:ひじ.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right wrist",
+        "src": "Inase_arm:手首.R",
         "tgt": "标准骨骼与刚体_arm:手首.R",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Arbiter_arm:arm right finger 1a",
+        "src": "Inase_arm:親指０.R",
         "tgt": "标准骨骼与刚体_arm:親指０.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 1b",
+        "src": "Inase_arm:親指１.R",
         "tgt": "标准骨骼与刚体_arm:親指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 1c",
+        "src": "Inase_arm:親指２.R",
         "tgt": "标准骨骼与刚体_arm:親指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 2a",
+        "src": "Inase_arm:人指１.R",
         "tgt": "标准骨骼与刚体_arm:人指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 2b",
+        "src": "Inase_arm:人指２.R",
         "tgt": "标准骨骼与刚体_arm:人指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 2c",
+        "src": "Inase_arm:人指３.R",
         "tgt": "标准骨骼与刚体_arm:人指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
      {
-        "src": "Arbiter_arm:arm right finger 3a",
+        "src": "Inase_arm:中指１.R",
         "tgt": "标准骨骼与刚体_arm:中指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 3b",
+        "src": "Inase_arm:中指２.R",
         "tgt": "标准骨骼与刚体_arm:中指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 3c",
+        "src": "Inase_arm:中指３.R",
         "tgt": "标准骨骼与刚体_arm:中指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 4a",
+        "src": "Inase_arm:薬指１.R",
         "tgt": "标准骨骼与刚体_arm:薬指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 4b",
+        "src": "Inase_arm:薬指２.R",
         "tgt": "标准骨骼与刚体_arm:薬指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 4c",
+        "src": "Inase_arm:薬指３.R",
         "tgt": "标准骨骼与刚体_arm:薬指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 5a",
+        "src": "Inase_arm:小指１.R",
         "tgt": "标准骨骼与刚体_arm:小指１.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 5b",
+        "src": "Inase_arm:小指２.R",
         "tgt": "标准骨骼与刚体_arm:小指２.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:arm right finger 5c",
+        "src": "Inase_arm:小指３.R",
         "tgt": "标准骨骼与刚体_arm:小指３.R",
         "align": "HEAD",
         "length": "AUTO"
     },
 
     {
-        "src": "Arbiter_arm:leg left thigh",
+        "src": "Inase_arm:足.L",
         "tgt": "标准骨骼与刚体_arm:足.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:leg right thigh",
+        "src": "Inase_arm:足.R",
         "tgt": "标准骨骼与刚体_arm:足.R",
         "align": "HEAD",
         "length": "AUTO"
     },
 
     {
-        "src": "Arbiter_arm:leg left knee",
+        "src": "Inase_arm:ひざ.L",
         "tgt": "标准骨骼与刚体_arm:ひざ.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:leg right knee",
+        "src": "Inase_arm:ひざ.R",
         "tgt": "标准骨骼与刚体_arm:ひざ.R",
         "align": "HEAD",
         "length": "AUTO"
     },
 
     {
-        "src": "Arbiter_arm:leg left ankle",
+        "src": "Inase_arm:足首.L",
         "tgt": "标准骨骼与刚体_arm:足首.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:leg right ankle",
+        "src": "Inase_arm:足首.R",
         "tgt": "标准骨骼与刚体_arm:足首.R",
         "align": "HEAD",
         "length": "AUTO"
     },
 
     {
-        "src": "Arbiter_arm:spine lower",
+        "src": "Inase_arm:上半身",
         "tgt": "标准骨骼与刚体_arm:上半身",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:spine middle",
+        "src": "Inase_arm:上半身1",
         "tgt": "标准骨骼与刚体_arm:上半身1",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:spine upper",
+        "src": "Inase_arm:上半身2",
         "tgt": "标准骨骼与刚体_arm:上半身2",
         "align": "HEAD",
         "length": "AUTO"
     },
     
     {
-        "src": "Arbiter_arm:head neck lower",
+        "src": "Inase_arm:首",
         "tgt": "标准骨骼与刚体_arm:首",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:head neck upper",
+        "src": "Inase_arm:頭",
         "tgt": "标准骨骼与刚体_arm:頭",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:head eyeball left",
+        "src": "Inase_arm:目.L",
         "tgt": "标准骨骼与刚体_arm:目.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:head eyeball right",
+        "src": "Inase_arm:目.R",
         "tgt": "标准骨骼与刚体_arm:目.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:boob right 1",
+        "src": "Inase_arm:乳奶1.R",
         "tgt": "标准骨骼与刚体_arm:乳奶1.R",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:boob right 2",
+        "src": "Inase_arm:乳奶2.R",
         "tgt": "标准骨骼与刚体_arm:乳奶2.R",
         "align": "HEAD",
         "length": "AUTO"
     },
+
     {
-        "src": "Arbiter_arm:boob left 1",
+        "src": "Inase_arm:乳奶1.L",
         "tgt": "标准骨骼与刚体_arm:乳奶1.L",
         "align": "HEAD",
         "length": "AUTO"
     },
     {
-        "src": "Arbiter_arm:boob left 2",
+        "src": "Inase_arm:乳奶2.L",
         "tgt": "标准骨骼与刚体_arm:乳奶2.L",
         "align": "HEAD",
         "length": "AUTO"

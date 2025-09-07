@@ -50,3 +50,4 @@ merge_adjacent_bones.py，如果胳膊是两段骨骼，需要合并骨骼
 16.xps tools for 4.5 change/export_xnalara_model.py
 	4.5的xps tools需要这样改一下才能导出xps
 	但是还存在贴图丢失的问题，豆包是真好用啊现在
+17.inase (instructor inase) 没完成

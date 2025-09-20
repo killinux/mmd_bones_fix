@@ -51,3 +51,5 @@ merge_adjacent_bones.py，如果胳膊是两段骨骼，需要合并骨骼
 	4.5的xps tools需要这样改一下才能导出xps
 	但是还存在贴图丢失的问题，豆包是真好用啊现在
 17.inase (instructor inase) 没完成
+18.rouffe (virgin killer) 
+	合并下半身，合并腿，用convert to mmd 插件，生成下半身的操作，选择权重模式找到下半身 unused bip001 pelvis 和两个屁股，合并定点组处理，(未完成)

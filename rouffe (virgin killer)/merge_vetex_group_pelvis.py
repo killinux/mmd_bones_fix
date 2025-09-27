@@ -38,5 +38,7 @@ new_group_name = "足.R"
 
 merge_vertex_groups(obj, ["butt right","butt left","unused bip001 pelvis"], "下半身")
 #merge_vertex_groups(obj, ["butt right","butt left","下半身"], "下半身")
-merge_vertex_groups(obj, ["unused muscle strand023","右足"], "右足")
-merge_vertex_groups(obj, ["unused muscle strand005","左足"], "左足")
+merge_vertex_groups(obj, ["unused muscle strand023","unused bip001 thightwist_rb","unused bip001 thightwist_rt","右足"], "右足")
+merge_vertex_groups(obj, ["unused muscle strand005","unused bip001 thightwist_lb","unused bip001 thightwist_lt", "左足"], "左足")
+
+#替换之后要把butt right ，butt left， unused bip001 pelvis ，unused muscle strand023 ，unused muscle strand005 这些都删掉

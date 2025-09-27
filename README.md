@@ -53,3 +53,6 @@ merge_adjacent_bones.py，如果胳膊是两段骨骼，需要合并骨骼
 17.inase (instructor inase) 没完成
 18.rouffe (virgin killer) 
 	合并下半身，合并腿，用convert to mmd 插件，生成下半身的操作，选择权重模式找到下半身 unused bip001 pelvis 和两个屁股，合并定点组处理，(未完成)
+19.inase(secret seeker)
+	下半身改名
+	合并足

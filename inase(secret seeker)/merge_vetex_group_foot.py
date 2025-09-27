@@ -36,7 +36,7 @@ new_group_name = "足.R"
 #merge_vertex_groups(obj, group_names, new_group_name)
 
 
-merge_vertex_groups(obj, ["butt right","butt left","unused bip001 pelvis"], "下半身")
-#merge_vertex_groups(obj, ["butt right","butt left","下半身"], "下半身")
-merge_vertex_groups(obj, ["unused muscle strand023","右足"], "右足")
-merge_vertex_groups(obj, ["unused muscle strand005","左足"], "左足")
+#手动重命名吧，不能有两个骨骼，否则有问题，如果是转换的需要删掉unused trash 17
+#merge_vertex_groups(obj, ["unused trash 17"], "下半身")
+merge_vertex_groups(obj, ["unused trash 16","unused bip001 rthightwist1"], "右足")
+merge_vertex_groups(obj, ["unused trash 15","unused bip001 lthightwist1"], "左足")

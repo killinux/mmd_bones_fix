@@ -56,13 +56,13 @@ def batch_set_rigidbody_collision_group(model_identifier, target_group_index=1):
 
 # ===================== 执行配置（替换成你的模型名称！） =====================
 # 请把以下两个名称替换为你场景中的「模型对象名」或「集合名」（从大纲视图复制）
-MODEL_A_NAME = "Yuffie Savior Ensemble 18 children"  # 第一个模型名称（你的报错里的名称）
+MODEL_A_NAME = "Yuffie Savior Ensemble 18 Inase"  # 第一个模型名称（你的报错里的名称）
 MODEL_B_NAME = "第二个模型的名称"  # 替换为你的第二个模型/集合名称
 
 # 步骤1：第一个模型 → 仅属于/碰撞「组1（索引0）」
-batch_set_rigidbody_collision_group(MODEL_A_NAME, target_group_index=0)
+batch_set_rigidbody_collision_group(MODEL_A_NAME, target_group_index=1)
 
 # 步骤2：第二个模型 → 仅属于/碰撞「组2（索引1）」（和组1互不碰撞）
-batch_set_rigidbody_collision_group(MODEL_B_NAME, target_group_index=1)
+#batch_set_rigidbody_collision_group(MODEL_B_NAME, target_group_index=1)
 
 print("\n📌 最终结果：两个模型的刚体已分属不同碰撞组，不会互相碰撞！")
